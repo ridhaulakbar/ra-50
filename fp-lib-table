@@ -1,0 +1,12 @@
+(fp_lib_table
+  (lib (name Keebio-Parts)(type KiCad)(uri "C:/Users/feizh/Documents/KiCAD-Project/Library & Pretty/Keebio-Parts.pretty")(options "")(descr ""))
+  (lib (name master-Keebio-Parts)(type KiCad)(uri "C:/Users/feizh/Documents/KiCAD-Project/Library & Pretty/master-Keebio-Parts.pretty")(options "")(descr ""))
+  (lib (name MX_Only)(type KiCad)(uri "C:/Users/feizh/Documents/KiCAD-Project/Library & Pretty/MX_Alps_Hybrid/MX_Only.pretty")(options "")(descr ""))
+  (lib (name random-keyboard-parts)(type KiCad)(uri "C:/Users/feizh/Documents/KiCAD-Project/Library & Pretty/random-keyboard-parts.pretty")(options "")(descr ""))
+  (lib (name kbd)(type KiCad)(uri "C:/Users/feizh/Documents/KiCAD-Project/Library & Pretty/foostan's kbd/kicad-footprints/kbd.pretty")(options "")(descr ""))
+  (lib (name nrfmicro)(type KiCad)(uri E:/Downloads/Compressed/nrfmicro-1.4/hardware/nrfmicro.pretty)(options "")(descr ""))
+  (lib (name locallib)(type KiCad)(uri ${KIPRJMOD}/locallib)(options "")(descr ""))
+  (lib (name Arduino)(type KiCad)(uri "C:/Users/feizh/Documents/KiCAD-Project/Library & Pretty/arduino-kicad-library-master/Arduino.pretty")(options "")(descr ""))
+  (lib (name "oled 4 pin ssd1306")(type KiCad)(uri "C:/Users/feizh/Documents/KiCAD-Project/Library & Pretty/oled 4 pin ssd1306")(options "")(descr ""))
+  (lib (name "ebastler kicad-keyboard-parts")(type KiCad)(uri "C:/Users/feizh/Documents/KiCAD-Project/Library & Pretty/ebastler kicad-keyboard-parts.pretty-master")(options "")(descr ""))
+)
