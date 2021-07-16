@@ -2649,4 +2649,18 @@ Text Label 1250 4200 1    50   ~ 0
 D58
 Text Label 850  4200 1    50   ~ 0
 D57
+Text Label 6050 1950 1    50   ~ 0
+D28
+Text Label 5650 1950 1    50   ~ 0
+D27
+Text Label 5250 1950 1    50   ~ 0
+D26
+Text Label 4850 1950 1    50   ~ 0
+D25
+Text Label 4450 1950 1    50   ~ 0
+D24
+Text Label 4050 1950 1    50   ~ 0
+D23
+Text Label 3650 1950 1    50   ~ 0
+D22
 $EndSCHEMATC

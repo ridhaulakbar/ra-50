@@ -2649,4 +2649,32 @@ Text Label 1250 4200 1    50   ~ 0
 D58
 Text Label 850  4200 1    50   ~ 0
 D57
+Text Label 6050 1950 1    50   ~ 0
+D28
+Text Label 5650 1950 1    50   ~ 0
+D27
+Text Label 5250 1950 1    50   ~ 0
+D26
+Text Label 4850 1950 1    50   ~ 0
+D25
+Text Label 4450 1950 1    50   ~ 0
+D24
+Text Label 4050 1950 1    50   ~ 0
+D23
+Text Label 3650 1950 1    50   ~ 0
+D22
+Text GLabel 1350 6850 0    50   Input ~ 0
+D26
+Text GLabel 1350 6750 0    50   Input ~ 0
+D27
+Text GLabel 1350 7350 0    50   Input ~ 0
+D28
+Text GLabel 1350 6950 0    50   Input ~ 0
+D25
+Text GLabel 1350 7050 0    50   Input ~ 0
+D24
+Text GLabel 1350 7150 0    50   Input ~ 0
+D23
+Text GLabel 1350 7250 0    50   Input ~ 0
+D22
 $EndSCHEMATC
