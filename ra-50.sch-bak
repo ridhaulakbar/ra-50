@@ -2602,40 +2602,40 @@ rotary_a
 $Comp
 L Connector_Generic:Conn_01x07 J1
 U 1 1 60F10CB6
-P 1550 6300
-F 0 "J1" H 1630 6342 50  0000 L CNN
-F 1 "Conn_01x07" H 1630 6251 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Vertical" H 1550 6300 50  0001 C CNN
-F 3 "~" H 1550 6300 50  0001 C CNN
-	1    1550 6300
+P 900 4950
+F 0 "J1" H 980 4992 50  0000 L CNN
+F 1 "Conn_01x07" H 980 4901 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Vertical" H 900 4950 50  0001 C CNN
+F 3 "~" H 900 4950 50  0001 C CNN
+	1    900  4950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x07 J2
+L Connector_Generic:Conn_01x05 J2
 U 1 1 60F12F20
-P 1550 7050
-F 0 "J2" H 1630 7092 50  0000 L CNN
-F 1 "Conn_01x07" H 1630 7001 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Vertical" H 1550 7050 50  0001 C CNN
-F 3 "~" H 1550 7050 50  0001 C CNN
-	1    1550 7050
+P 900 5600
+F 0 "J2" H 980 5642 50  0000 L CNN
+F 1 "Conn_01x05" H 980 5551 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 900 5600 50  0001 C CNN
+F 3 "~" H 900 5600 50  0001 C CNN
+	1    900  5600
 	1    0    0    -1  
 $EndComp
 Text Label 3650 4200 1    50   ~ 0
 D63
-Text GLabel 1350 6000 0    50   Input ~ 0
+Text GLabel 700  4650 0    50   Input ~ 0
 D63
-Text GLabel 1350 6100 0    50   Input ~ 0
+Text GLabel 700  4750 0    50   Input ~ 0
 D62
-Text GLabel 1350 6200 0    50   Input ~ 0
+Text GLabel 700  4850 0    50   Input ~ 0
 D61
-Text GLabel 1350 6300 0    50   Input ~ 0
+Text GLabel 700  4950 0    50   Input ~ 0
 D60
-Text GLabel 1350 6400 0    50   Input ~ 0
+Text GLabel 700  5050 0    50   Input ~ 0
 D59
-Text GLabel 1350 6500 0    50   Input ~ 0
+Text GLabel 700  5150 0    50   Input ~ 0
 D58
-Text GLabel 1350 6600 0    50   Input ~ 0
+Text GLabel 700  5250 0    50   Input ~ 0
 D57
 Text Label 3250 4200 1    50   ~ 0
 D62
@@ -2663,4 +2663,289 @@ Text Label 4050 1950 1    50   ~ 0
 D23
 Text Label 3650 1950 1    50   ~ 0
 D22
+Text GLabel 700  5400 0    50   Input ~ 0
+D26
+Text GLabel 700  5500 0    50   Input ~ 0
+D25
+Text GLabel 700  5600 0    50   Input ~ 0
+D24
+Text GLabel 700  5700 0    50   Input ~ 0
+D23
+Text GLabel 700  5800 0    50   Input ~ 0
+D22
+$Comp
+L Connector_Generic:Conn_01x05 J3
+U 1 1 60F572EC
+P 900 6150
+F 0 "J3" H 980 6192 50  0000 L CNN
+F 1 "Conn_01x05" H 980 6101 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x05_P1.00mm_Vertical" H 900 6150 50  0001 C CNN
+F 3 "~" H 900 6150 50  0001 C CNN
+	1    900  6150
+	1    0    0    -1  
+$EndComp
+Text GLabel 700  5950 0    50   Input ~ 0
+D64
+Text GLabel 700  6050 0    50   Input ~ 0
+D65
+Text GLabel 700  6150 0    50   Input ~ 0
+D66
+Text GLabel 700  6250 0    50   Input ~ 0
+D67
+Text GLabel 700  6350 0    50   Input ~ 0
+D68
+Text Label 4050 4200 1    50   ~ 0
+D64
+Text Label 4450 4200 1    50   ~ 0
+D65
+Text Label 4850 4200 1    50   ~ 0
+D66
+Text Label 5250 4200 1    50   ~ 0
+D67
+Text Label 5650 4200 1    50   ~ 0
+D68
+Text GLabel 700  7600 0    50   Input ~ 0
+D14
+Text GLabel 700  7500 0    50   Input ~ 0
+D28
+Text GLabel 700  6600 0    50   Input ~ 0
+D67
+Text GLabel 700  6500 0    50   Input ~ 0
+D68
+Text Label 6050 1200 1    50   ~ 0
+D14
+Text Label 5250 3450 1    50   ~ 0
+D54
+Text Label 5650 3450 1    50   ~ 0
+D55
+Text Label 6050 4200 1    50   ~ 0
+D69
+Text Label 6050 2700 1    50   ~ 0
+D42
+Text Label 6050 3450 1    50   ~ 0
+D56
+$Comp
+L Connector_Generic:Conn_01x20 J5
+U 1 1 612D088F
+P 2750 5550
+F 0 "J5" H 2830 5542 50  0000 L CNN
+F 1 "Conn_01x20" H 2830 5451 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x20_P1.00mm_Vertical" H 2750 5550 50  0001 C CNN
+F 3 "~" H 2750 5550 50  0001 C CNN
+	1    2750 5550
+	1    0    0    -1  
+$EndComp
+Text GLabel 700  6700 0    50   Input ~ 0
+D66
+Text GLabel 700  6800 0    50   Input ~ 0
+D65
+Text GLabel 700  6900 0    50   Input ~ 0
+D64
+Text GLabel 700  7000 0    50   Input ~ 0
+D69
+Text GLabel 700  7100 0    50   Input ~ 0
+D56
+Text GLabel 700  7200 0    50   Input ~ 0
+D55
+Text GLabel 700  7300 0    50   Input ~ 0
+D54
+Text GLabel 700  7400 0    50   Input ~ 0
+D42
+$Comp
+L Connector_Generic:Conn_01x12 J4
+U 1 1 61068940
+P 900 7000
+F 0 "J4" H 980 6992 50  0000 L CNN
+F 1 "Conn_01x12" H 980 6901 50  0000 L CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x12_P1.00mm_Vertical" H 900 7000 50  0001 C CNN
+F 3 "~" H 900 7000 50  0001 C CNN
+	1    900  7000
+	1    0    0    -1  
+$EndComp
+Text Label 850  1200 1    50   ~ 0
+D1
+Text Label 1250 1200 1    50   ~ 0
+D2
+Text Label 1650 1200 1    50   ~ 0
+D3
+Text Label 2050 1200 1    50   ~ 0
+D4
+Text Label 2450 1200 1    50   ~ 0
+D5
+Text Label 2850 1200 1    50   ~ 0
+D6
+Text Label 850  1950 1    50   ~ 0
+D15
+Text Label 1250 1950 1    50   ~ 0
+D16
+Text Label 1650 1950 1    50   ~ 0
+D17
+Text Label 2050 1950 1    50   ~ 0
+D18
+Text Label 2450 1950 1    50   ~ 0
+D19
+Text Label 2850 1950 1    50   ~ 0
+D20
+Text Label 3250 1950 1    50   ~ 0
+D21
+Text Label 3250 1200 1    50   ~ 0
+D7
+Text Label 3650 1200 1    50   ~ 0
+D8
+Text Label 4050 1200 1    50   ~ 0
+D9
+Text Label 4450 1200 1    50   ~ 0
+D10
+Text Label 4850 1200 1    50   ~ 0
+D11
+Text Label 5250 1200 1    50   ~ 0
+D12
+Text Label 5650 1200 1    50   ~ 0
+D13
+Text Label 850  2700 1    50   ~ 0
+D29
+Text Label 1250 2700 1    50   ~ 0
+D30
+Text Label 1650 2700 1    50   ~ 0
+D31
+Text Label 2050 2700 1    50   ~ 0
+D32
+Text Label 2450 2700 1    50   ~ 0
+D33
+Text Label 2850 2700 1    50   ~ 0
+D34
+Text Label 3250 2700 1    50   ~ 0
+D35
+Text Label 3650 2700 1    50   ~ 0
+D36
+Text Label 4050 2700 1    50   ~ 0
+D37
+Text Label 4450 2700 1    50   ~ 0
+D38
+Text Label 4450 3450 1    50   ~ 0
+D52
+Text Label 4050 3450 1    50   ~ 0
+D51
+Text Label 850  3450 1    50   ~ 0
+D43
+Text Label 1250 3450 1    50   ~ 0
+D44
+Text Label 1650 3450 1    50   ~ 0
+D45
+Text Label 2050 3450 1    50   ~ 0
+D46
+Text Label 2450 3450 1    50   ~ 0
+D47
+Text Label 2850 3450 1    50   ~ 0
+D48
+Text Label 3250 3450 1    50   ~ 0
+D49
+Text Label 3650 3450 1    50   ~ 0
+D50
+Text Label 4850 3450 1    50   ~ 0
+D53
+Text Label 4850 2700 1    50   ~ 0
+D39
+Text Label 5250 2700 1    50   ~ 0
+D40
+Text Label 5650 2700 1    50   ~ 0
+D41
+Text GLabel 2550 4650 0    50   Input ~ 0
+D49
+Text GLabel 2550 4750 0    50   Input ~ 0
+D48
+Text GLabel 2550 4850 0    50   Input ~ 0
+D47
+Text GLabel 2550 4950 0    50   Input ~ 0
+D46
+Text GLabel 2550 5050 0    50   Input ~ 0
+D45
+Text GLabel 2550 5150 0    50   Input ~ 0
+D43
+Text GLabel 2550 5250 0    50   Input ~ 0
+D44
+Text GLabel 2550 6050 0    50   Input ~ 0
+D63
+Text GLabel 2550 5950 0    50   Input ~ 0
+D62
+Text GLabel 2550 5850 0    50   Input ~ 0
+D61
+Text GLabel 2550 5750 0    50   Input ~ 0
+D60
+Text GLabel 2550 5650 0    50   Input ~ 0
+D59
+Text GLabel 2550 5550 0    50   Input ~ 0
+D58
+Text GLabel 2550 5450 0    50   Input ~ 0
+D57
+Text GLabel 2550 5350 0    50   Input ~ 0
+col0
+Text GLabel 2550 6150 0    50   Input ~ 0
+D1
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 6157EC21
+P 6500 1600
+F 0 "H1" H 6600 1646 50  0000 L CNN
+F 1 "MountingHole" H 6600 1555 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 6500 1600 50  0001 C CNN
+F 3 "~" H 6500 1600 50  0001 C CNN
+	1    6500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 61581579
+P 6500 1800
+F 0 "H2" H 6600 1846 50  0000 L CNN
+F 1 "MountingHole" H 6600 1755 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 6500 1800 50  0001 C CNN
+F 3 "~" H 6500 1800 50  0001 C CNN
+	1    6500 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 6158189A
+P 6500 2000
+F 0 "H3" H 6600 2046 50  0000 L CNN
+F 1 "MountingHole" H 6600 1955 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 6500 2000 50  0001 C CNN
+F 3 "~" H 6500 2000 50  0001 C CNN
+	1    6500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61581BAE
+P 6500 2200
+F 0 "H4" H 6600 2246 50  0000 L CNN
+F 1 "MountingHole" H 6600 2155 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 6500 2200 50  0001 C CNN
+F 3 "~" H 6500 2200 50  0001 C CNN
+	1    6500 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 61581EE3
+P 6500 2400
+F 0 "H5" H 6600 2446 50  0000 L CNN
+F 1 "MountingHole" H 6600 2355 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 6500 2400 50  0001 C CNN
+F 3 "~" H 6500 2400 50  0001 C CNN
+	1    6500 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 61582293
+P 6500 2600
+F 0 "H6" H 6600 2646 50  0000 L CNN
+F 1 "MountingHole" H 6600 2555 50  0000 L CNN
+F 2 "Connector_PinSocket_2.00mm:PinSocket_1x01_P2.00mm_Vertical" H 6500 2600 50  0001 C CNN
+F 3 "~" H 6500 2600 50  0001 C CNN
+	1    6500 2600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

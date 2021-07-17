@@ -1,4 +1,4 @@
-19988569225836839
+19990195731041801
 Arduino
 Arduino_101_Shield
 https://store.arduino.cc/genuino-101
@@ -85280,6 +85280,13 @@ waffle
 0
 0
 0
+locallib
+2mm_hole
+Through hole straight socket strip, 1x01, 2.00mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x01 2.00mm single row
+0
+1
+1
 locallib
 2u cutout platemount
 
