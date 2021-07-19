@@ -2127,23 +2127,23 @@ Connection ~ 6100 1200
 $Comp
 L arduino:Arduino_Micro_Socket XA1
 U 1 1 60EDE630
-P 5150 6650
-F 0 "XA1" H 5150 7887 60  0000 C CNN
-F 1 "Arduino_Micro_Socket" H 5150 7781 60  0000 C CNN
-F 2 "Arduino:Arduino_Micro_Socket" H 6950 10400 60  0001 C CNN
-F 3 "https://store.arduino.cc/arduino-micro" H 6950 10400 60  0001 C CNN
-	1    5150 6650
+P 5300 6700
+F 0 "XA1" H 5300 7937 60  0000 C CNN
+F 1 "Arduino_Micro_Socket" H 5300 7831 60  0000 C CNN
+F 2 "Arduino:Arduino_Micro_Socket" H 7100 10450 60  0001 C CNN
+F 3 "https://store.arduino.cc/arduino-micro" H 7100 10450 60  0001 C CNN
+	1    5300 6700
 	1    0    0    -1  
 $EndComp
-Text GLabel 3850 7450 0    50   Input ~ 0
+Text GLabel 4000 7500 0    50   Input ~ 0
 5V
-Text GLabel 3850 7250 0    50   Input ~ 0
+Text GLabel 4000 7300 0    50   Input ~ 0
 GND
-NoConn ~ 3850 7350
-NoConn ~ 3850 7550
-NoConn ~ 3850 6950
-NoConn ~ 6450 7350
-NoConn ~ 6450 7450
+NoConn ~ 4000 7400
+NoConn ~ 4000 7600
+NoConn ~ 4000 7000
+NoConn ~ 6600 7400
+NoConn ~ 6600 7500
 Text GLabel 7550 5950 0    50   Input ~ 0
 SDA
 Text GLabel 7550 6100 0    50   Input ~ 0
@@ -2587,17 +2587,17 @@ F 3 "~" H 9700 6350 50  0001 C CNN
 	1    9700 6350
 	-1   0    0    1   
 $EndComp
-Text GLabel 3850 7150 0    50   Input ~ 0
+Text GLabel 4000 7200 0    50   Input ~ 0
 GND
 Text GLabel 7250 1200 2    50   Input ~ 0
 GND
-Text GLabel 3850 6150 0    50   Input ~ 0
+Text GLabel 4000 6200 0    50   Input ~ 0
 SCL
-Text GLabel 3850 6050 0    50   Input ~ 0
+Text GLabel 4000 6100 0    50   Input ~ 0
 SDA
-Text GLabel 6450 7050 2    50   Input ~ 0
+Text GLabel 6600 7100 2    50   Input ~ 0
 rotary_b
-Text GLabel 6450 6950 2    50   Input ~ 0
+Text GLabel 6600 7000 2    50   Input ~ 0
 rotary_a
 $Comp
 L Connector_Generic:Conn_01x07 J1
@@ -2727,12 +2727,12 @@ D56
 $Comp
 L Connector_Generic:Conn_01x20 J5
 U 1 1 612D088F
-P 2750 5550
-F 0 "J5" H 2830 5542 50  0000 L CNN
-F 1 "Conn_01x20" H 2830 5451 50  0000 L CNN
-F 2 "Connector_PinHeader_1.00mm:PinHeader_1x20_P1.00mm_Vertical" H 2750 5550 50  0001 C CNN
-F 3 "~" H 2750 5550 50  0001 C CNN
-	1    2750 5550
+P 1850 5700
+F 0 "J5" H 1800 6800 50  0000 L CNN
+F 1 "Conn_01x20" H 1450 6700 50  0000 L CNN
+F 2 "locallib:PinHeader_1x20_via" H 1850 5700 50  0001 C CNN
+F 3 "~" H 1850 5700 50  0001 C CNN
+	1    1850 5700
 	1    0    0    -1  
 $EndComp
 Text GLabel 700  6700 0    50   Input ~ 0
@@ -2850,37 +2850,37 @@ Text Label 5250 2700 1    50   ~ 0
 D40
 Text Label 5650 2700 1    50   ~ 0
 D41
-Text GLabel 2550 4650 0    50   Input ~ 0
+Text GLabel 1650 4800 0    50   Input ~ 0
 D49
-Text GLabel 2550 4750 0    50   Input ~ 0
+Text GLabel 1650 4900 0    50   Input ~ 0
 D48
-Text GLabel 2550 4850 0    50   Input ~ 0
+Text GLabel 1650 5000 0    50   Input ~ 0
 D47
-Text GLabel 2550 4950 0    50   Input ~ 0
+Text GLabel 1650 5100 0    50   Input ~ 0
 D46
-Text GLabel 2550 5050 0    50   Input ~ 0
+Text GLabel 1650 5200 0    50   Input ~ 0
 D45
-Text GLabel 2550 5150 0    50   Input ~ 0
+Text GLabel 1650 5300 0    50   Input ~ 0
 D43
-Text GLabel 2550 5250 0    50   Input ~ 0
+Text GLabel 1650 5400 0    50   Input ~ 0
 D44
-Text GLabel 2550 6050 0    50   Input ~ 0
+Text GLabel 1650 6200 0    50   Input ~ 0
 D63
-Text GLabel 2550 5950 0    50   Input ~ 0
+Text GLabel 1650 6100 0    50   Input ~ 0
 D62
-Text GLabel 2550 5850 0    50   Input ~ 0
+Text GLabel 1650 6000 0    50   Input ~ 0
 D61
-Text GLabel 2550 5750 0    50   Input ~ 0
+Text GLabel 1650 5900 0    50   Input ~ 0
 D60
-Text GLabel 2550 5650 0    50   Input ~ 0
+Text GLabel 1650 5800 0    50   Input ~ 0
 D59
-Text GLabel 2550 5550 0    50   Input ~ 0
+Text GLabel 1650 5700 0    50   Input ~ 0
 D58
-Text GLabel 2550 5450 0    50   Input ~ 0
+Text GLabel 1650 5600 0    50   Input ~ 0
 D57
-Text GLabel 2550 5350 0    50   Input ~ 0
+Text GLabel 1650 5500 0    50   Input ~ 0
 col0
-Text GLabel 2550 6150 0    50   Input ~ 0
+Text GLabel 1650 6300 0    50   Input ~ 0
 D1
 $Comp
 L Mechanical:MountingHole H1
@@ -2948,4 +2948,106 @@ F 3 "~" H 6500 2600 50  0001 C CNN
 	1    6500 2600
 	1    0    0    -1  
 $EndComp
+Text GLabel 1650 6400 0    50   Input ~ 0
+D15
+Text GLabel 1650 6500 0    50   Input ~ 0
+D29
+Text GLabel 1650 6600 0    50   Input ~ 0
+D30
+Text GLabel 2200 5700 0    50   Input ~ 0
+col1
+Text GLabel 1650 6700 0    50   Input ~ 0
+D31
+Text GLabel 2200 4800 0    50   Input ~ 0
+D32
+Text GLabel 2200 4900 0    50   Input ~ 0
+D33
+Text GLabel 2200 5000 0    50   Input ~ 0
+D34
+Text GLabel 2200 5100 0    50   Input ~ 0
+D35
+Text GLabel 2200 5200 0    50   Input ~ 0
+D21
+Text GLabel 2200 5300 0    50   Input ~ 0
+D20
+Text GLabel 2200 5400 0    50   Input ~ 0
+D19
+Text GLabel 2200 5500 0    50   Input ~ 0
+D18
+Text GLabel 2200 5600 0    50   Input ~ 0
+D17
+Text GLabel 2200 5800 0    50   Input ~ 0
+D16
+Text GLabel 2200 5900 0    50   Input ~ 0
+D2
+Text GLabel 2200 6000 0    50   Input ~ 0
+col2
+Text GLabel 2200 6100 0    50   Input ~ 0
+D3
+Text GLabel 2750 5700 0    50   Input ~ 0
+D11
+Text GLabel 2750 5900 0    50   Input ~ 0
+D12
+Text GLabel 2750 6100 0    50   Input ~ 0
+D13
+Text GLabel 2200 6200 0    50   Input ~ 0
+col3
+Text GLabel 2200 6400 0    50   Input ~ 0
+col4
+Text GLabel 2750 5500 0    50   Input ~ 0
+D10
+$Comp
+L Connector_Generic:Conn_01x20 J6
+U 1 1 60F7AB70
+P 2400 5700
+F 0 "J6" H 2350 6800 50  0000 L CNN
+F 1 "Conn_01x20" H 2000 6700 50  0000 L CNN
+F 2 "locallib:PinHeader_1x20_via" H 2400 5700 50  0001 C CNN
+F 3 "~" H 2400 5700 50  0001 C CNN
+	1    2400 5700
+	1    0    0    -1  
+$EndComp
+Text GLabel 2200 6600 0    50   Input ~ 0
+col5
+Text GLabel 2750 4800 0    50   Input ~ 0
+col6
+Text GLabel 2750 5000 0    50   Input ~ 0
+col7
+Text GLabel 2750 5200 0    50   Input ~ 0
+col8
+Text GLabel 2750 5400 0    50   Input ~ 0
+col9
+Text GLabel 2750 5600 0    50   Input ~ 0
+col10
+Text GLabel 2750 5800 0    50   Input ~ 0
+col11
+Text GLabel 2750 6000 0    50   Input ~ 0
+col12
+Text GLabel 2750 6200 0    50   Input ~ 0
+D38
+Text GLabel 2200 6700 0    50   Input ~ 0
+D7
+Text GLabel 2200 6500 0    50   Input ~ 0
+D8
+Text GLabel 2750 4900 0    50   Input ~ 0
+D6
+Text GLabel 2750 5100 0    50   Input ~ 0
+D5
+Text GLabel 2750 5300 0    50   Input ~ 0
+D4
+Text GLabel 2200 6300 0    50   Input ~ 0
+D9
+$Comp
+L Connector_Generic:Conn_01x20 J7
+U 1 1 6115908E
+P 2950 5700
+F 0 "J7" H 2900 6800 50  0000 L CNN
+F 1 "Conn_01x20" H 2550 6700 50  0000 L CNN
+F 2 "locallib:PinHeader_1x20_via" H 2950 5700 50  0001 C CNN
+F 3 "~" H 2950 5700 50  0001 C CNN
+	1    2950 5700
+	1    0    0    -1  
+$EndComp
+Text GLabel 2750 6300 0    50   Input ~ 0
+D37
 $EndSCHEMATC

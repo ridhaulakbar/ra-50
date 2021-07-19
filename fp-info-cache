@@ -1,4 +1,4 @@
-19990195731041801
+19991822392438489
 Arduino
 Arduino_101_Shield
 https://store.arduino.cc/genuino-101
@@ -85301,6 +85301,13 @@ locallib
 0
 0
 0
+locallib
+PinHeader_1x20_via
+Through hole straight pin header, 1x20, 1.00mm pitch, single row
+Through hole pin header THT 1x20 1.00mm single row
+0
+20
+20
 master-Keebio-Parts
 3_Pin_Jumper
 
