@@ -1,4 +1,4 @@
-19991822392438489
+19993496267200706
 Arduino
 Arduino_101_Shield
 https://store.arduino.cc/genuino-101
@@ -85296,6 +85296,13 @@ locallib
 0
 locallib
 6u cutout platemount
+
+
+0
+0
+0
+locallib
+LongOvalCut_225mmFlexCut
 
 
 0
