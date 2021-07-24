@@ -2102,7 +2102,7 @@ Text GLabel 5900 750  1    50   Input ~ 0
 col12
 Text GLabel 6300 750  1    50   Input ~ 0
 col13
-Text GLabel 6650 1100 0    50   Input ~ 0
+Text GLabel 6650 1300 0    50   Input ~ 0
 col13
 Text GLabel 7250 1100 2    50   Input ~ 0
 rotary_a
@@ -2119,9 +2119,6 @@ F 3 "~" H 6950 1460 50  0001 C CNN
 	1    6950 1200
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	6100 1200 6650 1200
-Connection ~ 6100 1200
 $Comp
 L arduino:Arduino_Micro_Socket XA1
 U 1 1 60EDE630
@@ -2161,21 +2158,6 @@ F 3 "" H 7950 6300 60  0001 C CNN
 	1    7950 6200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_01x04 JST1
-U 1 1 61356314
-P 10500 6350
-F 0 "JST1" H 10418 5941 50  0000 C CNN
-F 1 "USB Conn" H 10418 6024 39  0000 C CNN
-F 2 "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal" H 10500 6350 50  0001 C CNN
-F 3 "~" H 10500 6350 50  0001 C CNN
-	1    10500 6350
-	-1   0    0    1   
-$EndComp
-Text GLabel 10700 6450 2    50   Input ~ 0
-USB_GND
-Text GLabel 10700 6150 2    50   Input ~ 0
-USB_VBUS
 Text GLabel 9600 4950 2    50   Input ~ 0
 USB_VBUS
 Text GLabel 9600 5500 2    50   Input ~ 0
@@ -2241,9 +2223,9 @@ Text GLabel 4000 6200 0    50   Input ~ 0
 SCL
 Text GLabel 4000 6100 0    50   Input ~ 0
 SDA
-Text GLabel 6600 7000 2    50   Input ~ 0
-rotary_b
 Text GLabel 6600 7200 2    50   Input ~ 0
+rotary_b
+Text GLabel 6600 7000 2    50   Input ~ 0
 rotary_a
 Text Label 3650 4200 1    50   ~ 0
 D63
@@ -2386,119 +2368,58 @@ D41
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 6157EC21
-P 10500 4750
-F 0 "H1" H 10600 4796 50  0000 L CNN
-F 1 "2mm" H 10600 4705 50  0000 L CNN
-F 2 "locallib:2mm_hole" H 10500 4750 50  0001 C CNN
-F 3 "~" H 10500 4750 50  0001 C CNN
-	1    10500 4750
+P 10450 5400
+F 0 "H1" H 10550 5446 50  0000 L CNN
+F 1 "2mm" H 10550 5355 50  0000 L CNN
+F 2 "locallib:2mm_hole" H 10450 5400 50  0001 C CNN
+F 3 "~" H 10450 5400 50  0001 C CNN
+	1    10450 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 61581579
-P 10500 4950
-F 0 "H2" H 10600 4996 50  0000 L CNN
-F 1 "2mm" H 10600 4905 50  0000 L CNN
-F 2 "locallib:2mm_hole" H 10500 4950 50  0001 C CNN
-F 3 "~" H 10500 4950 50  0001 C CNN
-	1    10500 4950
+P 10450 5600
+F 0 "H2" H 10550 5646 50  0000 L CNN
+F 1 "2mm" H 10550 5555 50  0000 L CNN
+F 2 "locallib:2mm_hole" H 10450 5600 50  0001 C CNN
+F 3 "~" H 10450 5600 50  0001 C CNN
+	1    10450 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 6158189A
-P 10500 5150
-F 0 "H3" H 10600 5196 50  0000 L CNN
-F 1 "2mm" H 10600 5105 50  0000 L CNN
-F 2 "locallib:2mm_hole" H 10500 5150 50  0001 C CNN
-F 3 "~" H 10500 5150 50  0001 C CNN
-	1    10500 5150
+P 10450 5800
+F 0 "H3" H 10550 5846 50  0000 L CNN
+F 1 "2mm" H 10550 5755 50  0000 L CNN
+F 2 "locallib:2mm_hole" H 10450 5800 50  0001 C CNN
+F 3 "~" H 10450 5800 50  0001 C CNN
+	1    10450 5800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 61581BAE
-P 10500 5350
-F 0 "H4" H 10600 5396 50  0000 L CNN
-F 1 "2mm" H 10600 5305 50  0000 L CNN
-F 2 "locallib:2mm_hole" H 10500 5350 50  0001 C CNN
-F 3 "~" H 10500 5350 50  0001 C CNN
-	1    10500 5350
+P 10450 6000
+F 0 "H4" H 10550 6046 50  0000 L CNN
+F 1 "2mm" H 10550 5955 50  0000 L CNN
+F 2 "locallib:2mm_hole" H 10450 6000 50  0001 C CNN
+F 3 "~" H 10450 6000 50  0001 C CNN
+	1    10450 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 61581EE3
-P 10500 5550
-F 0 "H5" H 10600 5596 50  0000 L CNN
-F 1 "2mm" H 10600 5505 50  0000 L CNN
-F 2 "locallib:2mm_hole" H 10500 5550 50  0001 C CNN
-F 3 "~" H 10500 5550 50  0001 C CNN
-	1    10500 5550
+P 10450 6200
+F 0 "H5" H 10550 6246 50  0000 L CNN
+F 1 "2mm" H 10550 6155 50  0000 L CNN
+F 2 "locallib:2mm_hole" H 10450 6200 50  0001 C CNN
+F 3 "~" H 10450 6200 50  0001 C CNN
+	1    10450 6200
 	1    0    0    -1  
 $EndComp
-$Comp
-L Mechanical:MountingHole H6
-U 1 1 61582293
-P 10500 5750
-F 0 "H6" H 10600 5796 50  0000 L CNN
-F 1 "2mm" H 10600 5705 50  0000 L CNN
-F 2 "locallib:2mm_hole" H 10500 5750 50  0001 C CNN
-F 3 "~" H 10500 5750 50  0001 C CNN
-	1    10500 5750
-	1    0    0    -1  
-$EndComp
-Text GLabel 10700 6250 2    50   Input ~ 0
-USB_DATA-
-Text GLabel 10700 6350 2    50   Input ~ 0
-USB_DATA+
-$Comp
-L Mechanical:MountingHole H7
-U 1 1 610A5714
-P 10900 4750
-F 0 "H7" H 11000 4796 50  0000 L CNN
-F 1 "flex_cut" H 11000 4705 31  0000 L CNN
-F 2 "locallib:LongOvalCut_225mmFlexCut" H 10900 4750 50  0001 C CNN
-F 3 "~" H 10900 4750 50  0001 C CNN
-	1    10900 4750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H8
-U 1 1 610A5E9B
-P 10900 4950
-F 0 "H8" H 11000 4996 50  0000 L CNN
-F 1 "flex_cut" H 11000 4905 31  0000 L CNN
-F 2 "locallib:LongOvalCut_225mmFlexCut" H 10900 4950 50  0001 C CNN
-F 3 "~" H 10900 4950 50  0001 C CNN
-	1    10900 4950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H9
-U 1 1 61113EC8
-P 10900 5150
-F 0 "H9" H 11000 5196 50  0000 L CNN
-F 1 "flex_cut" H 11000 5105 31  0000 L CNN
-F 2 "locallib:LongOvalCut_225mmFlexCut" H 10900 5150 50  0001 C CNN
-F 3 "~" H 10900 5150 50  0001 C CNN
-	1    10900 5150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H10
-U 1 1 611142A8
-P 10900 5350
-F 0 "H10" H 11000 5396 50  0000 L CNN
-F 1 "flex_cut" H 11000 5305 31  0000 L CNN
-F 2 "locallib:LongOvalCut_225mmFlexCut" H 10900 5350 50  0001 C CNN
-F 3 "~" H 10900 5350 50  0001 C CNN
-	1    10900 5350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6650 1200 6650 1300
 Text GLabel 6600 6600 2    50   Input ~ 0
 col0
 Text GLabel 6600 6500 2    50   Input ~ 0
@@ -2529,21 +2450,157 @@ Text GLabel 6600 7100 2    50   Input ~ 0
 col13
 Text GLabel 4000 5900 0    50   Input ~ 0
 rgb
+Text GLabel 8000 5750 2    50   Input ~ 0
+GND
+Text GLabel 8000 5650 2    50   Input ~ 0
+rgb
+Text GLabel 8000 5550 2    50   Input ~ 0
+5V
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 61582293
+P 10450 6400
+F 0 "H6" H 10550 6446 50  0000 L CNN
+F 1 "2mm" H 10550 6355 50  0000 L CNN
+F 2 "locallib:2mm_hole" H 10450 6400 50  0001 C CNN
+F 3 "~" H 10450 6400 50  0001 C CNN
+	1    10450 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 611142A8
+P 10850 6000
+F 0 "H10" H 10950 6046 50  0000 L CNN
+F 1 "flex_cut" H 10950 5955 31  0000 L CNN
+F 2 "locallib:LongOvalCut_225mmFlexCut" H 10850 6000 50  0001 C CNN
+F 3 "~" H 10850 6000 50  0001 C CNN
+	1    10850 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 61113EC8
+P 10850 5800
+F 0 "H9" H 10950 5846 50  0000 L CNN
+F 1 "flex_cut" H 10950 5755 31  0000 L CNN
+F 2 "locallib:LongOvalCut_225mmFlexCut" H 10850 5800 50  0001 C CNN
+F 3 "~" H 10850 5800 50  0001 C CNN
+	1    10850 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H8
+U 1 1 610A5E9B
+P 10850 5600
+F 0 "H8" H 10950 5646 50  0000 L CNN
+F 1 "flex_cut" H 10950 5555 31  0000 L CNN
+F 2 "locallib:LongOvalCut_225mmFlexCut" H 10850 5600 50  0001 C CNN
+F 3 "~" H 10850 5600 50  0001 C CNN
+	1    10850 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 610A5714
+P 10850 5400
+F 0 "H7" H 10950 5446 50  0000 L CNN
+F 1 "flex_cut" H 10950 5355 31  0000 L CNN
+F 2 "locallib:LongOvalCut_225mmFlexCut" H 10850 5400 50  0001 C CNN
+F 3 "~" H 10850 5400 50  0001 C CNN
+	1    10850 5400
+	1    0    0    -1  
+$EndComp
 $Comp
 L Connector_Generic:Conn_01x03 RGB1
 U 1 1 6153460B
-P 9900 6350
-F 0 "RGB1" H 9818 6025 50  0000 C CNN
-F 1 "RGB Strip" H 9818 6116 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 9900 6350 50  0001 C CNN
-F 3 "~" H 9900 6350 50  0001 C CNN
-	1    9900 6350
+P 7800 5650
+F 0 "RGB1" H 7718 5325 50  0000 C CNN
+F 1 "RGB Strip" H 7718 5416 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 7800 5650 50  0001 C CNN
+F 3 "~" H 7800 5650 50  0001 C CNN
+	1    7800 5650
 	-1   0    0    1   
 $EndComp
-Text GLabel 10100 6450 2    50   Input ~ 0
-GND
-Text GLabel 10100 6350 2    50   Input ~ 0
-rgb
-Text GLabel 10100 6250 2    50   Input ~ 0
-5V
+$Comp
+L Connector_Generic:Conn_01x04 JST2
+U 1 1 610653AD
+P 6300 5100
+F 0 "JST2" H 6218 4691 50  0000 C CNN
+F 1 "JST 1.25" H 6218 4774 39  0000 C CNN
+F 2 "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal" H 6300 5100 50  0001 C CNN
+F 3 "~" H 6300 5100 50  0001 C CNN
+	1    6300 5100
+	-1   0    0    1   
+$EndComp
+Text GLabel 6500 5200 2    50   Input ~ 0
+USB_GND
+Text GLabel 6500 4900 2    50   Input ~ 0
+USB_VBUS
+Text GLabel 6500 5000 2    50   Input ~ 0
+USB_DATA-
+Text GLabel 6500 5100 2    50   Input ~ 0
+USB_DATA+
+$Comp
+L Connector_Generic:Conn_01x04 JST1
+U 1 1 61073EEA
+P 5550 5100
+F 0 "JST1" H 5468 4691 50  0000 C CNN
+F 1 "2.54 THT" H 5468 4774 39  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5550 5100 50  0001 C CNN
+F 3 "~" H 5550 5100 50  0001 C CNN
+	1    5550 5100
+	-1   0    0    1   
+$EndComp
+Text GLabel 5750 5200 2    50   Input ~ 0
+USB_GND
+Text GLabel 5750 4900 2    50   Input ~ 0
+USB_VBUS
+Text GLabel 5750 5000 2    50   Input ~ 0
+USB_DATA-
+Text GLabel 5750 5100 2    50   Input ~ 0
+USB_DATA+
+Wire Wire Line
+	6100 1200 6650 1200
+Wire Wire Line
+	6650 1200 6650 1100
+Connection ~ 6100 1200
+$Comp
+L Connector_Generic:Conn_01x04 JST3
+U 1 1 610E9C2E
+P 7050 5100
+F 0 "JST3" H 6968 4691 50  0000 C CNN
+F 1 "HUB" H 6968 4774 39  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7050 5100 50  0001 C CNN
+F 3 "~" H 7050 5100 50  0001 C CNN
+	1    7050 5100
+	-1   0    0    1   
+$EndComp
+Text GLabel 7250 5200 2    50   Input ~ 0
+USB_GND
+Text GLabel 7250 4900 2    50   Input ~ 0
+USB_VBUS
+Text GLabel 7250 5000 2    50   Input ~ 0
+USB_DATA-
+Text GLabel 7250 5100 2    50   Input ~ 0
+USB_DATA+
+$Comp
+L Connector_Generic:Conn_01x04 JST4
+U 1 1 61204192
+P 7800 5100
+F 0 "JST4" H 7718 4691 50  0000 C CNN
+F 1 "row hub" H 7718 4774 39  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical" H 7800 5100 50  0001 C CNN
+F 3 "~" H 7800 5100 50  0001 C CNN
+	1    7800 5100
+	-1   0    0    1   
+$EndComp
+Text GLabel 8000 4900 2    50   Input ~ 0
+row1
+Text GLabel 8000 5000 2    50   Input ~ 0
+row2
+Text GLabel 8000 5100 2    50   Input ~ 0
+row3
+Text GLabel 8000 5200 2    50   Input ~ 0
+row4
 $EndSCHEMATC

@@ -2102,7 +2102,7 @@ Text GLabel 5900 750  1    50   Input ~ 0
 col12
 Text GLabel 6300 750  1    50   Input ~ 0
 col13
-Text GLabel 6650 1100 0    50   Input ~ 0
+Text GLabel 6650 1300 0    50   Input ~ 0
 col13
 Text GLabel 7250 1100 2    50   Input ~ 0
 rotary_a
@@ -2119,9 +2119,6 @@ F 3 "~" H 6950 1460 50  0001 C CNN
 	1    6950 1200
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	6100 1200 6650 1200
-Connection ~ 6100 1200
 $Comp
 L arduino:Arduino_Micro_Socket XA1
 U 1 1 60EDE630
@@ -2226,9 +2223,9 @@ Text GLabel 4000 6200 0    50   Input ~ 0
 SCL
 Text GLabel 4000 6100 0    50   Input ~ 0
 SDA
-Text GLabel 6600 7000 2    50   Input ~ 0
-rotary_b
 Text GLabel 6600 7200 2    50   Input ~ 0
+rotary_b
+Text GLabel 6600 7000 2    50   Input ~ 0
 rotary_a
 Text Label 3650 4200 1    50   ~ 0
 D63
@@ -2423,8 +2420,6 @@ F 3 "~" H 10450 6200 50  0001 C CNN
 	1    10450 6200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6650 1200 6650 1300
 Text GLabel 6600 6600 2    50   Input ~ 0
 col0
 Text GLabel 6600 6500 2    50   Input ~ 0
@@ -2530,39 +2525,92 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 JST2
 U 1 1 610653AD
-P 7800 5050
-F 0 "JST2" H 7718 4641 50  0000 C CNN
-F 1 "USB Conn" H 7718 4724 39  0000 C CNN
-F 2 "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal" H 7800 5050 50  0001 C CNN
-F 3 "~" H 7800 5050 50  0001 C CNN
-	1    7800 5050
+P 6300 5100
+F 0 "JST2" H 6218 4691 50  0000 C CNN
+F 1 "JST 1.25" H 6218 4774 39  0000 C CNN
+F 2 "Connector_JST:JST_GH_SM04B-GHS-TB_1x04-1MP_P1.25mm_Horizontal" H 6300 5100 50  0001 C CNN
+F 3 "~" H 6300 5100 50  0001 C CNN
+	1    6300 5100
 	-1   0    0    1   
 $EndComp
-Text GLabel 8000 5150 2    50   Input ~ 0
+Text GLabel 6500 5200 2    50   Input ~ 0
 USB_GND
-Text GLabel 8000 4850 2    50   Input ~ 0
+Text GLabel 6500 4900 2    50   Input ~ 0
 USB_VBUS
-Text GLabel 8000 4950 2    50   Input ~ 0
+Text GLabel 6500 5000 2    50   Input ~ 0
 USB_DATA-
-Text GLabel 8000 5050 2    50   Input ~ 0
+Text GLabel 6500 5100 2    50   Input ~ 0
 USB_DATA+
 $Comp
 L Connector_Generic:Conn_01x04 JST1
 U 1 1 61073EEA
-P 7050 5050
-F 0 "JST1" H 6968 4641 50  0000 C CNN
-F 1 "USB Conn" H 6968 4724 39  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7050 5050 50  0001 C CNN
-F 3 "~" H 7050 5050 50  0001 C CNN
-	1    7050 5050
+P 5550 5100
+F 0 "JST1" H 5468 4691 50  0000 C CNN
+F 1 "2.54 THT" H 5468 4774 39  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5550 5100 50  0001 C CNN
+F 3 "~" H 5550 5100 50  0001 C CNN
+	1    5550 5100
 	-1   0    0    1   
 $EndComp
-Text GLabel 7250 5150 2    50   Input ~ 0
+Text GLabel 5750 5200 2    50   Input ~ 0
 USB_GND
-Text GLabel 7250 4850 2    50   Input ~ 0
+Text GLabel 5750 4900 2    50   Input ~ 0
 USB_VBUS
-Text GLabel 7250 4950 2    50   Input ~ 0
+Text GLabel 5750 5000 2    50   Input ~ 0
 USB_DATA-
-Text GLabel 7250 5050 2    50   Input ~ 0
+Text GLabel 5750 5100 2    50   Input ~ 0
 USB_DATA+
+Wire Wire Line
+	6100 1200 6650 1200
+Wire Wire Line
+	6650 1200 6650 1100
+Connection ~ 6100 1200
+$Comp
+L Connector_Generic:Conn_01x04 JST3
+U 1 1 610E9C2E
+P 7050 5100
+F 0 "JST3" H 6968 4691 50  0000 C CNN
+F 1 "HUB" H 6968 4774 39  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 7050 5100 50  0001 C CNN
+F 3 "~" H 7050 5100 50  0001 C CNN
+	1    7050 5100
+	-1   0    0    1   
+$EndComp
+Text GLabel 7250 5200 2    50   Input ~ 0
+USB_GND
+Text GLabel 7250 4900 2    50   Input ~ 0
+USB_VBUS
+Text GLabel 7250 5000 2    50   Input ~ 0
+USB_DATA-
+Text GLabel 7250 5100 2    50   Input ~ 0
+USB_DATA+
+$Comp
+L Connector_Generic:Conn_01x04 JST4
+U 1 1 61204192
+P 7800 5100
+F 0 "JST4" H 7718 4691 50  0000 C CNN
+F 1 "row hub" H 7718 4774 39  0000 C CNN
+F 2 "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical" H 7800 5100 50  0001 C CNN
+F 3 "~" H 7800 5100 50  0001 C CNN
+	1    7800 5100
+	-1   0    0    1   
+$EndComp
+Text GLabel 8000 4900 2    50   Input ~ 0
+row1
+Text GLabel 8000 5000 2    50   Input ~ 0
+row2
+Text GLabel 8000 5100 2    50   Input ~ 0
+row3
+Text GLabel 8000 5200 2    50   Input ~ 0
+row4
+Text GLabel 4000 6900 0    50   Input ~ 0
+row1
+Text GLabel 4000 6800 0    50   Input ~ 0
+row2
+Text GLabel 4000 6700 0    50   Input ~ 0
+row3
+Text GLabel 4000 6600 0    50   Input ~ 0
+row4
+Text GLabel 4000 6500 0    50   Input ~ 0
+row0
 $EndSCHEMATC
